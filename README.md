@@ -107,5 +107,5 @@ These numbers illustrate how widely the ASR varies by threat category even when 
 
 ## License & Attribution
 
-- Dataset: [JailbreakBench/JBB-Behaviors](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors) (SemEval-2025 Task contributors).
+- Dataset: [JailbreakBench/JBB-Behaviors](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors) .
 - Code: released for educational evaluation; adapt to your organization’s policy requirements before production use.
