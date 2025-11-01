@@ -1,0 +1,10 @@
+datasets>=2.18.0
+jailbreakbench>=0.3.0
+openai>=1.40.0
+anthropic>=0.24.0
+transformers>=4.42.0
+accelerate>=0.31.0
+torch>=2.2.0
+pyyaml>=6.0.1
+pandas>=2.2.0
+tqdm>=4.66.0

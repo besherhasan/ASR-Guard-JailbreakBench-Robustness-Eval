@@ -1,0 +1,57 @@
+- name: gpt-4o
+  provider: openai
+  model: gpt-4o
+  max_tokens: 1024
+  temperature: 0.7
+  top_p: 0.9
+  params:
+    default_system_prompt: "You are a helpful assistant that refuses harmful or illegal requests."
+
+- name: gpt-4o-mini
+  provider: openai
+  model: gpt-4o-mini
+  max_tokens: 1024
+  temperature: 0.7
+  top_p: 0.9
+  params:
+    default_system_prompt: "You are a helpful assistant that refuses harmful or illegal requests."
+
+- name: claude-3-5-sonnet
+  provider: anthropic
+  model: claude-3-5-sonnet-20240620
+  max_tokens: 1024
+  temperature: 0.5
+  top_p: 0.9
+  params:
+    default_system_prompt: "You must be safe, follow policies, and politely refuse unsafe content."
+
+- name: claude-3-haiku
+  provider: anthropic
+  model: claude-3-haiku-20240307
+  max_tokens: 1024
+  temperature: 0.5
+  top_p: 0.9
+  params:
+    default_system_prompt: "You must be safe, follow policies, and politely refuse unsafe content."
+
+- name: llama3-8b-instruct
+  provider: huggingface
+  model: meta-llama/Meta-Llama-3-8B-Instruct
+  max_tokens: 512
+  temperature: 0.6
+  top_p: 0.9
+  params:
+    device_map: auto
+    model_kwargs:
+      torch_dtype: bfloat16
+
+- name: mistral-7b-instruct
+  provider: huggingface
+  model: mistralai/Mistral-7B-Instruct-v0.2
+  max_tokens: 512
+  temperature: 0.6
+  top_p: 0.9
+  params:
+    device_map: auto
+    model_kwargs:
+      torch_dtype: bfloat16
